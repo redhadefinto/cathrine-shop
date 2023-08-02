@@ -1,5 +1,5 @@
 {
-  "name": "cathrine-shop",
+  "name": "klontong-api",
   "version": "1.0.0",
   "description": "welcome....",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redhadefinto/cathrine-shop.git"
+    "url": "git+https://github.com/redhadefinto/klontong-be.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/redhadefinto/cathrine-shop/issues"
+    "url": "https://github.com/redhadefinto/klontong-be/issues"
   },
-  "homepage": "https://github.com/redhadefinto/cathrine-shop#readme",
+  "homepage": "https://github.com/redhadefinto/klontong-be#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
