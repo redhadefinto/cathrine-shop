@@ -13,7 +13,7 @@ const checkToken = (req, res, next) => {
   const token = bearerToken.split(" ")[1];
   jwt.verify(token, jwtSecret, async (err, payload) => {
     if (err && err.name)
-      return res.status(200).json({
+      return res.status(400).json({
         msg: err.message,
       });
     const blackList = await authModels.getBlackList(token);
@@ -43,7 +43,7 @@ const checkToken = (req, res, next) => {
 
 const checkRole = (req, res, next) => {
   const role = req.authInfo.role_id;
-  if (role !== 1) {
+  if (role !== 2) {
     return res.status(403).json({
       msg: "Not allowed, Only admin should access.",
     });

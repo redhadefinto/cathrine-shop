@@ -8,4 +8,7 @@ module.exports = {
   jwtSecret: process.env.JWT_SECRET,
   email: process.env.MAIL_EMAIL,
   passwordEmail: process.env.MAIL_PASSWORD,
+  cloudinaryName: process.env.CLOUD_NAME,
+  cloudinaryKey: process.env.CLOUD_KEY,
+  cloudinarySecret: process.env.CLOUD_SECRET,
 };
