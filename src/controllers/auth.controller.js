@@ -37,7 +37,7 @@ const login = async (req, res) => {
       phone,
     };
     const jwtOptions = {
-      expiresIn: "2 days",
+      expiresIn: "7 days",
     };
     jwt.sign(payload, env.jwtSecret, jwtOptions, async (err, token) => {
       if (err) throw err;
