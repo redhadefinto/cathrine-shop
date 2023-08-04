@@ -49,7 +49,7 @@ $ apt-get update
 $ apt-get install git-all
 $ apt-get install nodejs-current
 $ https://github.com/redhadefinto/klontong-be
-$ cd coffeein-be
+$ cd klontong-be
 $ code .
 $ npm i
 ```
