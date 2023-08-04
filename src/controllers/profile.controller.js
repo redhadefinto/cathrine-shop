@@ -15,7 +15,7 @@ const getProfile = async (req, res) => {
       data: result.rows,
     });
   } catch (error) {
-    console.log(error.message);
+    console.log(error);
     res.status(500).json({
       msg: "Internal server error",
     });
